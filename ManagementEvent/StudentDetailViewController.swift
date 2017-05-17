@@ -15,14 +15,21 @@ class StudentDetailViewController: UIViewController {
     var student: Student?
     
     @IBOutlet weak var dateLabel: UILabel!
-    @IBOutlet weak var detailText: UITextView!
+    @IBOutlet var nameLabelDetail: UILabel!
+    @IBOutlet var universityLabelDetail: UILabel!
+    @IBOutlet var descriptionLabelDetail: UILabel!
+    @IBOutlet var yearOldLabelDetail: UILabel!
     
     override func viewDidLoad() {
         
         super.viewDidLoad()
         
-        detailText.text = student?.name
         dateLabel.text = dateStudent
+        nameLabelDetail.text = student?.name
+        universityLabelDetail.text = student?.university
+        descriptionLabelDetail.text = student?.description
+        yearOldLabelDetail.text = student?.yearold
+        
         
     }
     

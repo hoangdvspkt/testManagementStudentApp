@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BA723901ECC402C0060B320 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA7238F1ECC402C0060B320 /* Constant.swift */; };
+		3BA723921ECC43350060B320 /* AddStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA723911ECC43350060B320 /* AddStudentViewController.swift */; };
 		FB3D165F1EAB4D0C00094299 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3D165E1EAB4D0C00094299 /* AppDelegate.swift */; };
 		FB3D16611EAB4D0C00094299 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3D16601EAB4D0C00094299 /* ViewController.swift */; };
 		FB3D16641EAB4D0C00094299 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB3D16621EAB4D0C00094299 /* Main.storyboard */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3BA7238F1ECC402C0060B320 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		3BA723911ECC43350060B320 /* AddStudentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddStudentViewController.swift; sourceTree = "<group>"; };
 		FB3D165B1EAB4D0C00094299 /* ManagementEvent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManagementEvent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB3D165E1EAB4D0C00094299 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB3D16601EAB4D0C00094299 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -113,10 +117,12 @@
 				FB3D16621EAB4D0C00094299 /* Main.storyboard */,
 				FB3D16651EAB4D0C00094299 /* Assets.xcassets */,
 				FB5C30811EB08EAE00EED839 /* StudentDetailViewController.swift */,
+				3BA723911ECC43350060B320 /* AddStudentViewController.swift */,
 				FB3D16931EAB5BEE00094299 /* StudentTableViewCell.swift */,
 				FB3D16911EAB4D9500094299 /* StudentTableViewController.swift */,
 				FB3D16671EAB4D0C00094299 /* LaunchScreen.storyboard */,
 				FB3D166A1EAB4D0C00094299 /* Info.plist */,
+				3BA7238F1ECC402C0060B320 /* Constant.swift */,
 			);
 			path = ManagementEvent;
 			sourceTree = "<group>";
@@ -285,7 +291,9 @@
 			files = (
 				FB3D16941EAB5BEE00094299 /* StudentTableViewCell.swift in Sources */,
 				FB3D16901EAB4D3900094299 /* StudenLine.swift in Sources */,
+				3BA723921ECC43350060B320 /* AddStudentViewController.swift in Sources */,
 				FB3D16611EAB4D0C00094299 /* ViewController.swift in Sources */,
+				3BA723901ECC402C0060B320 /* Constant.swift in Sources */,
 				FB3D168F1EAB4D3900094299 /* Student.swift in Sources */,
 				FB3D165F1EAB4D0C00094299 /* AppDelegate.swift in Sources */,
 				FB5C30821EB08EAE00EED839 /* StudentDetailViewController.swift in Sources */,
